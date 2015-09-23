@@ -10,6 +10,7 @@ Install using Meteor's package management system:
 ```
 
 ## Usage
+Locus: server
 ```js
   var shippingCosts = NiceCorreios.getDeliveryCost({
     from: '64460000', // only numbers
