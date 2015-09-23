@@ -6,7 +6,7 @@ NiceCorreios
 Install using Meteor's package management system:
 
 ```bash
-> meteor add gbit:faker
+> meteor add astrocoders:nice-correios
 ```
 
 ## Usage
