@@ -17,6 +17,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('company:nice-correios');
+  api.use('astrocoders:nice-correios');
   api.addFiles('nice-correios-tests.js');
 });
