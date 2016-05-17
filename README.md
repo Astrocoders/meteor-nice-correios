@@ -25,5 +25,9 @@ Locus: server
     }
 ```
 
-## Thanks
-Thanks for agenciaideias.com.br!
+## Considerations
+
+Using this package you assume that the delivery will be made using a
+box-delivery-3 from [this list](https://www.correios.com.br/para-voce/envio/embalagens-para-envios)
+
+Ideas? Feel free to contact us!
