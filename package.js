@@ -6,15 +6,15 @@ Package.describe({
   documentation: 'README.md'
 });
 
+Npm.depends({
+  'soap': '0.6.1',
+});
+
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
 
-  Npm.depends({
-    'soap': '0.6.1',
-  });
-
   api.use([
-    'ecmascript',
+    'ecmascript@0.1.6',
     'check',
     'stevezhu:lodash@3.10.1',
   ], 'server');
