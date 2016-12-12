@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
 
   api.use([
-    'ecmascript@0.1.6',
+    'ecmascript@0.1.5',
     'check',
     'stevezhu:lodash@3.10.1',
   ], 'server');
