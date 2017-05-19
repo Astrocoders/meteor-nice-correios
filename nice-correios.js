@@ -18,7 +18,7 @@ NiceCorreios.getDeliveryCost = function(options){
     sCdMaoPropria: 'N',
     nVlValorDeclarado : 0,
     sCdAvisoRecebimento: 'N',
-    nCdServico: '40010, 41106',
+    nCdServico: '04014, 04510',
 
     // User info,
     sCepOrigem: from,
