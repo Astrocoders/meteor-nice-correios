@@ -1,6 +1,6 @@
 Package.describe({
   name: 'astrocoders:nice-correios',
-  version: '0.1.0',
+  version: '0.1.1',
   summary: 'Get Correios shipping costs without complications',
   git: 'https://github.com/Astrocoders/meteor-nice-correios',
   documentation: 'README.md'
