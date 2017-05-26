@@ -44,8 +44,8 @@ NiceCorreios.getDeliveryCost = function(options){
       }
 
       const services = result.CalcPrecoResult.Servicos.cServico;
-      const sedex = (_.find(services, {Codigo: 40010}) || {}).Valor || 0;
-      const pac = (_.find(services, {Codigo: 41106}) || {}).Valor || 0;
+      const sedex = (_.find(services, {Codigo: 04014}) || {}).Valor || 0;
+      const pac = (_.find(services, {Codigo: 04510}) || {}).Valor || 0;
 
       future.return({
         sedex,
